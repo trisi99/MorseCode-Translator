@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body{
+    text-align: center;
+    font-family: roboto;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 25%;
+    gap: 30px;
+}
+
+#letter{
+    font-size: 16px;
+    height: 48px;
+    border-color: blue;
+    border-radius: 8px;
+    box-shadow: rgb(12, 12, 84) 8px 10px 20px; 
+}
+.btn{
+    margin-inline: 35%;
+    font-size: 225%;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: rgb(255, 175, 37);
+    background-color: blueviolet;
+    color: rgb(255, 175, 37);
+}
+
+#output{
+    border: lightskyblue solid 3px;
+    padding: 20px;
+    text-align: left;
+    margin-inline: 3%;
+    height: fit-content;
+    border-radius: 8px;
+    box-shadow: rgb(47, 132, 185) 10px 10px 10px;
+}
+
